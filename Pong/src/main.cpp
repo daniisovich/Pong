@@ -1,9 +1,13 @@
 #include <iostream>
 
+#include "pong.h"
+
 
 int main() {
 
-	std::cout << "Pong start!" << std::endl;
+	Pong pong{ 800, 600 };
+	pong.run();
+
 	return EXIT_SUCCESS;
 
 }
