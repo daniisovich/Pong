@@ -15,9 +15,12 @@ public:
 
 private:
 	
+	void resetGameState();
 	void pollEvents();
 
 	sf::RenderWindow m_window;
 	Ball m_ball;
+
+	float m_width, m_height;
 
 };
